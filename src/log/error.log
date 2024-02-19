@@ -1,0 +1,53 @@
+[31m10-02-2024 22:01:06 [ERROR] ❌: "no existe la columna «id_usuario» en la relación «tiposmovimientos»"[39m
+[31m10-02-2024 22:21:17 [ERROR] ❌: "inserción o actualización en la tabla «tiposmovimientos» viola la llave foránea «tiposmovimientos_id_usuario_fkey»"[39m
+[31m10-02-2024 22:23:34 [ERROR] ❌: "inserción o actualización en la tabla «movimientos» viola la llave foránea «movimientos_id_tipomovimiento_fkey»"[39m
+[31m2024-02-13 12:59:23 [ERROR] ❌: "la sintaxis de entrada no es válida para integer: «{user}»"[39m
+[31m2024-02-17 11:54:11 [ERROR] ❌: "You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper"[39m
+[31m2024-02-17 16:34:12 [ERROR] ❌: "Unknown column '$6' in 'where clause'"[39m
+[31m2024-02-17 16:34:21 [ERROR] ❌: "Unknown column '$1' in 'where clause'"[39m
+[31m2024-02-17 16:34:51 [ERROR] ❌: "Unknown column '$1' in 'where clause'"[39m
+[31m2024-02-17 16:38:38 [ERROR] ❌: "Cannot delete or update a parent row: a foreign key constraint fails (`megadigital`.`reserva`, CONSTRAINT `reserva_ibfk_1` FOREIGN KEY (`habitacionid`) REFERENCES `habitacion` (`id`))"[39m
+[31m2024-02-17 16:38:47 [ERROR] ❌: "Cannot delete or update a parent row: a foreign key constraint fails (`megadigital`.`reserva`, CONSTRAINT `reserva_ibfk_1` FOREIGN KEY (`habitacionid`) REFERENCES `habitacion` (`id`))"[39m
+[31m2024-02-17 16:46:07 [ERROR] ❌: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'RETURNING id' at line 3"[39m
+[31m2024-02-17 16:48:34 [ERROR] ❌: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'RETURNING id' at line 3"[39m
+[31m2024-02-17 16:49:31 [ERROR] ❌: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'RETURNING id' at line 3"[39m
+[31m2024-02-17 16:55:37 [ERROR] ❌: "CONSTRAINT `habitacion.habitacionpiso` failed for `megadigital`.`habitacion`"[39m
+[31m2024-02-17 18:57:06 [ERROR] ❌: "CONSTRAINT `habitacion.habitacionpiso` failed for `megadigital`.`habitacion`"[39m
+[31m2024-02-17 20:16:27 [ERROR] ❌: "CONSTRAINT `habitacion.habitacionpiso` failed for `megadigital`.`habitacion`"[39m
+[31m2024-02-17 20:18:49 [ERROR] ❌: "CONSTRAINT `habitacion.habitacionpiso` failed for `megadigital`.`habitacion`"[39m
+[31m2024-02-17 20:19:39 [ERROR] ❌: "CONSTRAINT `habitacion.habitacionpiso` failed for `megadigital`.`habitacion`"[39m
+[31m2024-02-17 20:19:48 [ERROR] ❌: "CONSTRAINT `habitacion.habitacionpiso` failed for `megadigital`.`habitacion`"[39m
+[31m2024-02-17 20:19:49 [ERROR] ❌: "CONSTRAINT `habitacion.habitacionpiso` failed for `megadigital`.`habitacion`"[39m
+[31m2024-02-17 20:19:49 [ERROR] ❌: "CONSTRAINT `habitacion.habitacionpiso` failed for `megadigital`.`habitacion`"[39m
+[31m2024-02-17 20:19:49 [ERROR] ❌: "CONSTRAINT `habitacion.habitacionpiso` failed for `megadigital`.`habitacion`"[39m
+[31m2024-02-17 20:19:49 [ERROR] ❌: "CONSTRAINT `habitacion.habitacionpiso` failed for `megadigital`.`habitacion`"[39m
+[31m2024-02-17 20:19:59 [ERROR] ❌: "CONSTRAINT `habitacion.habitacionpiso` failed for `megadigital`.`habitacion`"[39m
+[31m2024-02-17 23:17:32 [ERROR] ❌: "Column 'fechareserva' cannot be null"[39m
+[31m2024-02-17 23:42:03 [ERROR] ❌: "Cannot add or update a child row: a foreign key constraint fails (`megadigital`.`reserva`, CONSTRAINT `reserva_ibfk_2` FOREIGN KEY (`personaid`) REFERENCES `persona` (`id`))"[39m
+[31m2024-02-18 13:03:03 [ERROR] ❌: "Unknown column 'NaN' in 'field list'"[39m
+[31m2024-02-18 13:08:15 [ERROR] ❌: "Unknown column 'NaN' in 'field list'"[39m
+[31m2024-02-18 14:25:50 [ERROR] ❌: "Unknown column 'NaN' in 'field list'"[39m
+[31m2024-02-18 14:28:41 [ERROR] ❌: "Unknown column 'NaN' in 'field list'"[39m
+[31m2024-02-18 14:30:51 [ERROR] ❌: "Unknown column 'NaN' in 'field list'"[39m
+[31m2024-02-18 14:32:38 [ERROR] ❌: "Unknown column 'NaN' in 'field list'"[39m
+[31m2024-02-18 14:40:20 [ERROR] ❌: "Unknown column 'NaN' in 'field list'"[39m
+[31m2024-02-18 14:41:31 [ERROR] ❌: "Unknown column 'NaN' in 'field list'"[39m
+[31m2024-02-18 14:41:38 [ERROR] ❌: "Unknown column 'NaN' in 'field list'"[39m
+[31m2024-02-18 14:42:31 [ERROR] ❌: "Unknown column 'NaN' in 'field list'"[39m
+[31m2024-02-18 14:44:44 [ERROR] ❌: "Unknown column 'NaN' in 'field list'"[39m
+[31m2024-02-18 14:47:07 [ERROR] ❌: "Unknown column 'NaN' in 'field list'"[39m
+[31m2024-02-18 15:00:05 [ERROR] ❌: "Cannot delete or update a parent row: a foreign key constraint fails (`megadigital`.`reserva`, CONSTRAINT `reserva_ibfk_2` FOREIGN KEY (`personaid`) REFERENCES `persona` (`id`))"[39m
+[31m2024-02-18 15:05:47 [ERROR] ❌: "Cannot delete or update a parent row: a foreign key constraint fails (`megadigital`.`reserva`, CONSTRAINT `reserva_ibfk_2` FOREIGN KEY (`personaid`) REFERENCES `persona` (`id`))"[39m
+[31m2024-02-18 15:06:11 [ERROR] ❌: "Cannot delete or update a parent row: a foreign key constraint fails (`megadigital`.`reserva`, CONSTRAINT `reserva_ibfk_2` FOREIGN KEY (`personaid`) REFERENCES `persona` (`id`))"[39m
+[31m2024-02-18 15:08:04 [ERROR] ❌: "Cannot delete or update a parent row: a foreign key constraint fails (`megadigital`.`reserva`, CONSTRAINT `reserva_ibfk_2` FOREIGN KEY (`personaid`) REFERENCES `persona` (`id`))"[39m
+[31m2024-02-18 15:13:25 [ERROR] ❌: "Cannot delete or update a parent row: a foreign key constraint fails (`megadigital`.`reserva`, CONSTRAINT `reserva_ibfk_2` FOREIGN KEY (`personaid`) REFERENCES `persona` (`id`))"[39m
+[31m2024-02-18 15:15:30 [ERROR] ❌: "You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper"[39m
+[31m2024-02-18 15:29:43 [ERROR] ❌: "You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper"[39m
+[31m2024-02-18 15:29:46 [ERROR] ❌: "Can't add new command when connection is in closed state"[39m
+[31m2024-02-18 15:29:46 [ERROR] ❌: "Can't add new command when connection is in closed state"[39m
+[31m2024-02-18 15:29:48 [ERROR] ❌: "Can't add new command when connection is in closed state"[39m
+[31m2024-02-18 15:29:48 [ERROR] ❌: "Can't add new command when connection is in closed state"[39m
+[31m2024-02-18 15:30:10 [ERROR] ❌: "You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper"[39m
+[31m2024-02-18 15:31:08 [ERROR] ❌: "Cannot delete or update a parent row: a foreign key constraint fails (`megadigital`.`reserva`, CONSTRAINT `reserva_ibfk_2` FOREIGN KEY (`personaid`) REFERENCES `persona` (`id`))"[39m
+[31m2024-02-18 15:31:16 [ERROR] ❌: "Cannot delete or update a parent row: a foreign key constraint fails (`megadigital`.`reserva`, CONSTRAINT `reserva_ibfk_2` FOREIGN KEY (`personaid`) REFERENCES `persona` (`id`))"[39m
+[31m2024-02-18 15:46:19 [ERROR] ❌: "Column 'telefono' cannot be null"[39m

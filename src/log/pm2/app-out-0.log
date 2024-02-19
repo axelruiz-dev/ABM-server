@@ -1,0 +1,104 @@
+2024-02-12 15:21:22: [32m12-02-2024 15:21:22 [INFO] 📝: "API: http://192.168.100.46:3000/endpoint"[39m
+2024-02-13 00:33:52: [32m2024-02-13 00:33:52 [INFO] 📝: "API: http://localhost:3000/endpoint"[39m
+2024-02-13 00:35:38: [32m2024-02-13 00:35:37 [INFO] 📝: "API: http://192.168.100.46:3000/endpoint"[39m
+2024-02-13 11:23:31: [32m2024-02-13 11:23:31 [INFO] 📝: "API: http://192.168.100.46:3000/endpoint"[39m
+2024-02-13 11:24:31: [32m2024-02-13 11:24:31 [INFO] 📝: 3[39m
+2024-02-13 11:24:48: [32m2024-02-13 11:24:48 [INFO] 📝: [{"id_usuario":1,"descripcion":"a"},{"id_usuario":2,"descripcion":"a"},{"id_usuario":3,"descripcion":"a"}][39m
+2024-02-13 11:25:22: SyntaxError: Expected double-quoted property name in JSON at position 25
+    at JSON.parse (<anonymous>)
+    at parse (C:\Desarrollos\MegaDigital\api-postgres\node_modules\express\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Desarrollos\MegaDigital\api-postgres\node_modules\express\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Desarrollos\MegaDigital\api-postgres\node_modules\express\node_modules\raw-body\index.js:231:16)
+    at done (C:\Desarrollos\MegaDigital\api-postgres\node_modules\express\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Desarrollos\MegaDigital\api-postgres\node_modules\express\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\n  "descripcion": "a",\n\n}',
+  type: 'entity.parse.failed'
+}
+2024-02-16 11:52:53: 127.0.0.1
+2024-02-16 11:52:53: dba
+2024-02-16 11:52:53: 123
+2024-02-16 11:52:53: megadigital
+2024-02-16 11:52:54: [32m2024-02-16 11:52:54 [INFO] 📝: "API: http://127.0.0.1:3000/endpoint"[39m
+2024-02-17 18:20:41: [32m2024-02-17 18:20:41 [INFO] 📝: "API: http://127.0.0.1:8000/api/endpoint"[39m
+2024-02-17 18:20:41: Conexión a la base de datos exitosa
+2024-02-17 18:20:46: [32m2024-02-17 18:20:46 [INFO] 📝: undefined[39m
+2024-02-17 18:20:54: [32m2024-02-17 18:20:54 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":1,"tienefrigobar":0},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":1,"tienefrigobar":0}][39m
+2024-02-17 18:20:54: [32m2024-02-17 18:20:54 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":1,"tienefrigobar":0},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":1,"tienefrigobar":0}][39m
+2024-02-17 18:21:34: [32m2024-02-17 18:21:34 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":1,"tienefrigobar":0},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":1,"tienefrigobar":0}][39m
+2024-02-17 18:22:11: [32m2024-02-17 18:22:11 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":1,"tienefrigobar":0},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":1,"tienefrigobar":0}][39m
+2024-02-17 18:22:18: [32m2024-02-17 18:22:18 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":1,"tienefrigobar":0},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":1,"tienefrigobar":0}][39m
+2024-02-17 18:22:18: [32m2024-02-17 18:22:18 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":1,"tienefrigobar":0},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":1,"tienefrigobar":0}][39m
+2024-02-17 18:22:49: [32m2024-02-17 18:22:49 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":1,"tienefrigobar":0},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":1,"tienefrigobar":0}][39m
+2024-02-17 18:56:16: [32m2024-02-17 18:56:16 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":1,"tienefrigobar":0},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":1,"tienefrigobar":0}][39m
+2024-02-17 18:56:16: [32m2024-02-17 18:56:16 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":1,"tienefrigobar":0},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":1,"tienefrigobar":0}][39m
+2024-02-17 18:57:06: [31m2024-02-17 18:57:06 [ERROR] ❌: "CONSTRAINT `habitacion.habitacionpiso` failed for `megadigital`.`habitacion`"[39m
+2024-02-17 19:00:41: [32m2024-02-17 19:00:41 [INFO] 📝: undefined[39m
+2024-02-17 19:04:18: [32m2024-02-17 19:04:18 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":1,"tienefrigobar":0},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":1,"tienefrigobar":0},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":1,"tienefrigobar":0}][39m
+2024-02-17 19:10:39: [32m2024-02-17 19:10:39 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"1","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:10:39: [32m2024-02-17 19:10:39 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"1","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:11:31: [32m2024-02-17 19:11:31 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"1","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:11:34: [32m2024-02-17 19:11:34 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"1","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:11:34: [32m2024-02-17 19:11:34 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"1","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:12:22: [32m2024-02-17 19:12:22 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"1","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:12:28: [32m2024-02-17 19:12:28 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"1","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:12:28: [32m2024-02-17 19:12:28 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"1","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:12:45: [32m2024-02-17 19:12:45 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"1","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:13:12: [32m2024-02-17 19:13:12 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"1","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:13:28: [32m2024-02-17 19:13:28 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"1","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:14:47: [32m2024-02-17 19:14:47 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"1","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:14:57: [32m2024-02-17 19:14:57 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"1","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:15:38: [32m2024-02-17 19:15:38 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"0","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:15:38: [32m2024-02-17 19:15:38 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"0","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:16:25: [32m2024-02-17 19:16:25 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"0","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:16:40: [32m2024-02-17 19:16:40 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"0","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:16:40: [32m2024-02-17 19:16:40 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"0","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:17:09: [32m2024-02-17 19:17:09 [INFO] 📝: [{"id":3,"habitacionpiso":1,"habitacionnro":1,"cantcamas":1,"tienetelevision":"0","tienefrigobar":"0"},{"id":4,"habitacionpiso":4,"habitacionnro":4,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"},{"id":5,"habitacionpiso":1,"habitacionnro":11,"cantcamas":4,"tienetelevision":"1","tienefrigobar":"0"}][39m
+2024-02-17 19:21:29: [32m2024-02-17 19:21:29 [INFO] 📝: undefined[39m
+2024-02-17 19:21:33: [32m2024-02-17 19:21:33 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"1","tienefrigobar":"1"}][39m
+2024-02-17 19:21:33: [32m2024-02-17 19:21:33 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"1","tienefrigobar":"1"}][39m
+2024-02-17 19:22:29: [32m2024-02-17 19:22:29 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"Si","tienefrigobar":"No"}][39m
+2024-02-17 19:22:29: [32m2024-02-17 19:22:29 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"Si","tienefrigobar":"No"}][39m
+2024-02-17 19:22:52: [32m2024-02-17 19:22:52 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:22:52: [32m2024-02-17 19:22:52 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:24:19: [32m2024-02-17 19:24:19 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:24:19: [32m2024-02-17 19:24:19 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:25:54: [32m2024-02-17 19:25:54 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:28:10: [32m2024-02-17 19:28:10 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:29:01: [32m2024-02-17 19:29:01 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:29:01: [32m2024-02-17 19:29:01 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:30:52: [32m2024-02-17 19:30:52 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:30:52: [32m2024-02-17 19:30:52 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:31:15: [32m2024-02-17 19:31:15 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:33:18: [32m2024-02-17 19:33:18 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:33:36: [32m2024-02-17 19:33:36 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:33:42: [32m2024-02-17 19:33:42 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:34:41: [32m2024-02-17 19:34:41 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:35:28: [32m2024-02-17 19:35:28 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:37:01: [32m2024-02-17 19:37:01 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:37:04: [32m2024-02-17 19:37:04 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:37:04: [32m2024-02-17 19:37:04 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:37:57: [32m2024-02-17 19:37:57 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:37:57: [32m2024-02-17 19:37:57 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:38:31: [32m2024-02-17 19:38:31 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:38:31: [32m2024-02-17 19:38:31 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:41:33: [32m2024-02-17 19:41:33 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:41:41: [32m2024-02-17 19:41:41 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:41:46: [32m2024-02-17 19:41:46 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:41:46: [32m2024-02-17 19:41:46 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:42:06: [32m2024-02-17 19:42:06 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:42:20: [32m2024-02-17 19:42:20 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:42:37: [32m2024-02-17 19:42:37 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:43:27: [32m2024-02-17 19:43:27 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:43:27: [32m2024-02-17 19:43:27 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:44:05: [32m2024-02-17 19:44:05 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:44:16: [32m2024-02-17 19:44:16 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"0","tienefrigobar":"0"}][39m
+2024-02-17 19:45:37: [32m2024-02-17 19:45:37 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"1","tienefrigobar":"1"}][39m
+2024-02-17 19:45:37: [32m2024-02-17 19:45:37 [INFO] 📝: [{"id":1,"habitacionpiso":4,"habitacionnro":2,"cantcamas":2,"tienetelevision":"1","tienefrigobar":"1"}][39m
+2024-02-17 19:50:13: [32m2024-02-17 19:50:13 [INFO] 📝: undefined[39m
